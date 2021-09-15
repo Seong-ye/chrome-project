@@ -47,7 +47,7 @@ const quotes = [
     
     const todaysQoute = quotes[Math.floor(Math.random()*quotes.length)];
     
-    quote.innerText = todaysQoute.quote;
-    author.innerText = todaysQoute.author;
+    quote.innerText = `${todaysQoute.quote}\n`;
+    author.innerText = `by, ${todaysQoute.author}`;
     
     

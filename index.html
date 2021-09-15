@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,22 +8,27 @@
     <title>Document</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
-    <form id="login-form" class="hidden" >
-    <input requred maxlength="15" type="text" placeholder="what is your name?"/>
-    <input type="submit" value="Log In"/>
-    </form>
-    <h2 id="clock">00:00:00</h2>
-    <h1 id="greeting" class="hidden"></h1>
-    <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press Enter" required/>
-    </form>
-    <ul id="todo-list"></ul>
 
-    <div id="quote">
-        <span></span>
-        <span></span>
+<body>
+    <div id="my-form">
+        <h2 id="clock">00:00:00</h2>
+        <form id="login-form" class="hidden">
+            <input class = "login" requred maxlength="15" type="text" placeholder="what is your name?"  />
+            <input class = "logbutton" type="submit" value="Log In" />
+        </form>
+ 
+        <h1 id="greeting" class="hidden"></h1>
+        <form id="todo-form">
+            <input class= "todo" type="text" placeholder="Write a To Do and Press Enter" required />
+        </form>
+        <ul id="todo-list"></ul>
     </div>
+        <div id="quote">
+            <span></span>
+            <span></span>
+        </div>
+    
+
     <div id="weather">
         <span></span>
         <span></span>
@@ -33,6 +39,7 @@
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
+
 </body>
 
 </html>

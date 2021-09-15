@@ -1,3 +1,99 @@
 .hidden{
     display:none;
 }
+#my-form{
+    position: absolute;
+    left : 50%;
+    top : 50%;
+    transform: translate(-50%, -50%);
+}
+.bgimg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#clock{
+    color : white;
+    font-size : 70px;
+    font-family : monospace;
+    text-align: center;
+}
+#login-form{
+    width : 500px;
+    position : relative;
+    text-align: center;
+}
+.login{
+    border:none;
+    background:transparent;
+    outline: none;
+    width : 320px;
+    height : 30px;
+    font-size: 30px;
+    color : white;
+}
+.login::placeholder{
+    color : #e0e0e0;
+    font-size: 30px;
+    font-family: cursive;
+    padding-left: 0%;
+}
+.logbutton{
+    border: solid 2px white;
+    border-radius: 3em;
+    background : transparent;
+    color : white;
+    width : 80px;
+    height : 30px;
+}
+#greeting{
+    font-size:50px;
+    color : white;
+    font-family: cursive;
+    
+}
+#todo-form {
+    position : relative;
+    text-align: center;
+}
+.todo{
+    border:none;
+    background:transparent;
+    outline: none;
+    width : 500px;
+    height : 30px;
+    font-size: 30px;
+    color : white;
+}
+.todo::placeholder{
+    color:#e0e0e0;
+    font-size: 30px;
+    font-family: cursive;
+    padding-left: 0%;
+}
+.delButton{
+    background : transparent;
+    border : none;
+    color : #bdbdbd;
+    width : 20px;
+    height : 20px;
+}
+#todo-list{
+    color : white;
+    font-family: sans-serif;
+    list-style: circle;
+}
+#quote{
+    position: fixed;
+    right:10px;
+    bottom: 10px;
+    line-height: 20px;
+    
+}
+#quote span{
+    color : white;
+    font-family: cursive;
+}
