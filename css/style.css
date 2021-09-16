@@ -18,7 +18,7 @@
 #clock{
     color : white;
     font-size : 70px;
-    font-family : monospace;
+    font-family: 'Questrial', sans-serif;;
     text-align: center;
 }
 #login-form{
@@ -38,7 +38,7 @@
 .login::placeholder{
     color : #e0e0e0;
     font-size: 30px;
-    font-family: cursive;
+    font-family: 'Questrial', sans-serif;
     padding-left: 0%;
 }
 .logbutton{
@@ -52,7 +52,7 @@
 #greeting{
     font-size:50px;
     color : white;
-    font-family: cursive;
+    font-family: 'Questrial', sans-serif;
     
 }
 #todo-form {
@@ -63,15 +63,16 @@
     border:none;
     background:transparent;
     outline: none;
-    width : 500px;
+    width : 230px;
+    padding-left: 15px;
     height : 30px;
-    font-size: 30px;
+    font-size: 20px;
     color : white;
 }
 .todo::placeholder{
     color:#e0e0e0;
-    font-size: 30px;
-    font-family: cursive;
+    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
     padding-left: 0%;
 }
 .delButton{
@@ -83,17 +84,28 @@
 }
 #todo-list{
     color : white;
-    font-family: sans-serif;
+    font-family: 'Questrial', sans-serif;
     list-style: circle;
 }
 #quote{
     position: fixed;
     right:10px;
-    bottom: 10px;
-    line-height: 20px;
-    
+    bottom: 20px;
+    height : 40px;
 }
-#quote span{
+#quote span:first-child{
     color : white;
-    font-family: cursive;
+    font-family: 'Questrial', sans-serif;
+}
+#quote span:last-child{
+    color : white;
+    font-family: 'Questrial', sans-serif;
+    position: absolute;
+    right : 0;
+    bottom:0;
+}
+#weather span{
+    color : white;
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Questrial', sans-serif;
 }

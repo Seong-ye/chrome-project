@@ -2,6 +2,7 @@ const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
 const greeting = document.querySelector("#greeting");
 const date = new Date();
+const dateHour = date.getHours();
 
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
@@ -15,9 +16,9 @@ function onLoginSubmit(event) {
 }
 
 function paintGreetings(username) {
-    if (date.getHours >= 7 && date.getHours <= 11) {
+    if (dateHour>= 7 && dateHour <=11) {
         greeting.innerText = `Good morning, ${username}`;
-    } else if (date.getHours >= 12 && date.getHours <= 17) {
+    } else if (dateHour>= 12 && dateHour<= 17) {
         greeting.innerText = `Good afternoon,${username}`;
     }else {
         greeting.innerText = `Good night, ${username}`;
