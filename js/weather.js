@@ -12,7 +12,7 @@ function onGeoOk(position){
         const city = document.querySelector("#weather span:last-child");
         
         city.innerText = `You are in ${data.name}`;
-        weather.innerText = `${data.weather[0].main}/${data.main.temp}\n`;
+        weather.innerText = `${data.weather[0].main} and ${data.main.temp}℃ right now\n`;
     });
 }
 function onGeoError(){

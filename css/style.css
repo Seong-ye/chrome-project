@@ -42,12 +42,23 @@
     padding-left: 0%;
 }
 .logbutton{
+    border : solid 2px #bdbdbd;
+    border-radius: 3em;
+    background : transparent;
+    color : #bdbdbd;
+    width : 80px;
+    height : 35px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.logbutton:hover{
     border: solid 2px white;
     border-radius: 3em;
     background : transparent;
     color : white;
     width : 80px;
-    height : 30px;
+    height : 35px;
+    font-family: 'Questrial', sans-serif;
 }
 #greeting{
     font-size:50px;
@@ -68,6 +79,7 @@
     height : 30px;
     font-size: 20px;
     color : white;
+    font-family: 'Questrial', sans-serif;
 }
 .todo::placeholder{
     color:#e0e0e0;
